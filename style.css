@@ -6,15 +6,17 @@ body {
 
 .bg-image {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background: url(https://images.unsplash.com/photo-1597537593193-a79263045e14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2338&q=80);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    filter: blur();
 }
 
 .container {
-    padding: 100px;
+    width: 80vw;
+    padding-left: 50px;
 }
 
 h1 {
